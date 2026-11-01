@@ -1,0 +1,24 @@
+config-version: 1
+
+teleport:
+  delay-ticks: 5
+  on-first-join: true
+  on-authme-register: true
+  on-authme-login: false
+  mode: "COMMAND"
+  player-command: "spawn"
+  console-command: "spawn {player}"
+  spawn-location:
+    enabled: false
+    world: "world"
+    x: 0.5
+    y: 64.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+
+notification:
+  enabled: true
+  sound: "ENTITY_PLAYER_LEVELUP"
+  sound-volume: 1.0
+  sound-pitch: 1.0

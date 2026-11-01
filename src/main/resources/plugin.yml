@@ -1,0 +1,14 @@
+name: IceNewPlayers
+version: '${project.version}'
+main: pluginsfix.icenewplayers.IceNewPlayers
+api-version: '1.16'
+author: pluginsfix
+softdepend:
+  - AuthMe
+commands:
+  icenewplayers:
+    description: Main command for IceNewPlayers
+    aliases:
+      - inp
+      - newplayers
+    permission: icenewplayers.use

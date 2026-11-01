@@ -1,0 +1,53 @@
+welcome:
+  - "[message] "
+  - "[message] &#FFFF00▶ &fДобро пожаловать на наш сервер, &#FFFF00{player}&f!"
+  - "[message] &#FFFF00◆ &fВы были успешно телепортированы на &#FFFF00главный спавн&f."
+  - "[message] &#FFFF00◆ &fПриятной и комфортной игры!"
+  - "[message] "
+  - "[actionbar] &#FFFF00◆ &fДобро пожаловать на спавн, &#FFFF00{player}&f!"
+  - "[title] &#FFFF00ДОБРО ПОЖАЛОВАТЬ;Вы на спавне сервера;10;40;10"
+  - "[sound] ENTITY_PLAYER_LEVELUP"
+
+no-permission:
+  - "[message] &#FB8808▶ &fНедостаточно &#FB8808прав на использование &fданной команды!"
+  - "[sound] BLOCK_ANVIL_LAND"
+
+player-only:
+  - "[message] &#FB8808▶ &fДанная команда доступна &#FB8808только игрокам&f!"
+
+reloaded:
+  - "[message] &#FFFF00◆ &fКонфигурация плагина успешно &#FFFF00перезагружена&f!"
+  - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+spawn-set:
+  - "[message] &#FFFF00◆ &fНовая точка спавна успешно &#FFFF00установлена&f на ваших координатах!"
+  - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+spawn-teleported:
+  - "[message] &#FFFF00◆ &fВы успешно телепортированы на &#FFFF00спавн&f!"
+  - "[sound] ENTITY_ENDERMAN_TELEPORT"
+
+player-not-found:
+  - "[message] &#FB8808▶ &fУказанный игрок &#FB8808не найден&f!"
+
+player-reset:
+  - "[message] &#FFFF00◆ &fСтатус первого входа для игрока &#FFFF00{player} &fуспешно &#FFFF00сброшен&f!"
+  - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+player-status-new:
+  - "[message] &#FFFF00◆ &fИгрок &#FFFF00{player} &fещё &#FFFF00не проходил &fтелепортацию первого входа."
+
+player-status-processed:
+  - "[message] &#FFFF00◆ &fИгрок &#FFFF00{player} &fуже &#FFFF00прошёл &fтелепортацию первого входа."
+
+help:
+  - "[message] "
+  - "[message] &#FFFF00▶ &fУправление плагином &#FFFF00IceNewPlayers&f:"
+  - "[message] "
+  - "[message]   &#FFFF00◆ &f/inp help &8— &fпоказать список команд"
+  - "[message]   &#FFFF00◆ &f/inp reload &8— &fперезагрузить конфигурацию"
+  - "[message]   &#FFFF00◆ &f/inp setspawn &8— &fустановить локацию спавна"
+  - "[message]   &#FFFF00◆ &f/inp spawn &8— &fпроверить телепортацию на спавн"
+  - "[message]   &#FFFF00◆ &f/inp status <игрок> &8— &fпроверить статус игрока"
+  - "[message]   &#FFFF00◆ &f/inp reset <игрок> &8— &fсбросить статус игрока"
+  - "[message] "
